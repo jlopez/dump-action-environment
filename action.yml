@@ -1,0 +1,5 @@
+name: 'Dump Action Environment'
+description: 'Dumps the environment variables and other relevant information during GitHub Actions execution'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
